@@ -1,0 +1,31 @@
+h3{
+    font-size: 25px;
+}
+.btn-info:hover{
+background-color: rgb(74, 54, 37);
+}
+canvas{
+    animation-name:example ;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    border-style: dotted;
+}
+@keyframes example{
+    from{box-shadow: 1px 1px 30px rgb(124, 88, 56);}
+    to {box-shadow: 1px 1px 30px rgb(105, 68, 68);}
+}
+body{
+    position:center;
+
+}
+
+#h11{
+    background-color: burlywood;
+    font-family: 'PT Serif', serif;
+
+}
+
+#btn2{
+    background-color: rgb(124, 88, 56);
+    color:aliceblue;
+}
